@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "comics_font";
+	src: url('cartoon/Sketch 3D.otf');
+}
+@font-face {
+	font-family: "Meatloaf";
+	src: url('meatloaf/Meatloaf.ttf');
+}
+
+body {
+    margin: 0px;
+    background-image: url('../sources/img/body3.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    min-height: 600px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#signin {
+    text-align: center;
+    margin: 115px auto;
+    height: 550px;
+    width: 400px;
+    background-color: rgba(32, 34, 27, 0.6);
+    box-shadow: 0px 0px 10px rgba(70, 36, 36, 0.8);
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#title_signin {
+    font-size: 37px;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.input {
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border: 0px;
+    display: inline-block;
+}
+
+#input_valider{
+    background-color: #1a791a;
+    border: 1px;
+    font-size: 20px;
+    height: 35px;
+    width: 79px;
+    color: white;
+    margin-top: 15px;
+}
+
+.p_input {
+    margin: 0px 0px 7px 0px;
+    color: white;
+}
+
+
+#confirmation{
+    text-align: center;
+    font-size: 1.4em;
+    height: 42px;
+}
