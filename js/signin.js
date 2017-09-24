@@ -5,25 +5,25 @@
         var mail = document.getElementById('mail').value;
 
         if (!login) {
-            document.getElementById('login_img').src = "../../sources/img/error.svg";
+            document.getElementById('login_img').src = "../sources/img/error.svg";
             document.getElementById('login_img').title = "Le Login ne peut etre compose que de chiffre et lettre."
         } else
-            document.getElementById('login_img').src = "../../sources/img/check.svg";
+            document.getElementById('login_img').src = "../sources/img/check.svg";
         if (!mdp || verif != mdp) {
-            document.getElementById('mdp_img').src = "../../sources/img/error.svg";
+            document.getElementById('mdp_img').src = "../sources/img/error.svg";
             document.getElementById('mdp_img').title = "Les mots de passe ne sont pas identiques";
         } else
-            document.getElementById('mdp_img').src = "../../sources/img/check.svg";
+            document.getElementById('mdp_img').src = "../sources/img/check.svg";
         if (!verif || verif != mdp) {
-            document.getElementById('verif_img').src = "../../sources/img/error.svg";
+            document.getElementById('verif_img').src = "../sources/img/error.svg";
             document.getElementById('verif_img').title = "Les mots de passe ne sont pas identiques";
         } else
-            document.getElementById('verif_img').src = "../../sources/img/check.svg";
+            document.getElementById('verif_img').src = "../sources/img/check.svg";
         if (!mail) {
-            document.getElementById('mail_img').src = "../../sources/img/error.svg";
+            document.getElementById('mail_img').src = "../sources/img/error.svg";
             document.getElementById('mail_img').title = "Le mail n'est pas valide";
         } else
-            document.getElementById('mail_img').src = "../../sources/img/check.svg";
+            document.getElementById('mail_img').src = "../sources/img/check.svg";
         
         var message = "Inscription Reussie";
         if (!login || !mdp || !verif || !mail)
