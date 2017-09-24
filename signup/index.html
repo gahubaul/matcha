@@ -1,31 +1,28 @@
 <html>
     <head>
-        <title>SIGN IN</title>
+        <title>SIGN UP</title>
         <link rel="stylesheet" href="../css/header.css">
-        <link rel="stylesheet" href="../css/signin.css">
+        <link rel="stylesheet" href="../css/signup.css">
         <link rel="stylesheet" href="../sources/font-awesome/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
-        <script src="../js/signin.js"></script>
+        <script src="../js/signup.js"></script>
     </head>
     <body>
         <div id="header"><p style="font-family:comics_font;margin: 0px;color: white;font-size: 66px;">M A T C H A</p></div>
         <div style="margin-top:50px;" id="confirmation"></div>
         <div id="signin">
-            <p id="title_signin">Inscription</p><br><br>
+            <p id="title_signin">Connexion</p><br><br>
             
-            <p class="p_input">Login/Pseudo</p>
+            <p class="p_input">Pseudo ou adresse mail</p>
             <input style="background-color: rgba(255, 255, 255, 0.5);" type="text" class="input" id="login" value="">
             <img title="" src="../sources/img/empty.png" style="left: -4px;top:8px;position: relative;width:25px;height:25px;" id="login_img"><br>
             
             <p class="p_input">Mot de passe</p>
             <input style="background-color: rgba(255, 255, 255, 0.5);" onmousedown="visible(1);" onmouseup="visible(0);" type="password" class="input" id="mdp" value="">
             <img title="" src="../sources/img/empty.png" style="left: -4px;top:8px;position: relative;width:25px;height:25px;" id="mdp_img"><br>
-                        
-            <p class="p_input">Adresse Mail</p>
-            <input style="background-color: rgba(255, 255, 255, 0.5);" type="text" class="input" id="mail" value="">
-            <img title="" src="../sources/img/empty.png" style="left: -4px;top:8px;position: relative;width:25px;height:25px;" id="mail_img"><br>
+
             <input onclick="coucou();" type="button" id="input_valider" id="name" value="Valider">
-            <a style="margin-top: 25px;display: block;color: palevioletred;" href="../signup/index.html">Déjà inscrit ? Connecte-toi</a>    
+            <a style="margin-top: 25px;display: block;color: palevioletred;" href="../signin/index.html">Pas encore Inscrit</a>    
         </div>
         <div id="footer"><p style="color: white;font-size: 20px;margin: 4px 0px">copyright © 2017 gahubault - matcha -</p></div>
     </body>
